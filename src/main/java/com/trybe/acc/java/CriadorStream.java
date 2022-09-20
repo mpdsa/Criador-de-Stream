@@ -15,7 +15,7 @@ public class CriadorStream {
   public <T> Stream<T> criarDoItem(T item) {
     List<T> items = new ArrayList<T>();
     items.add(item);
-    
+     
     return items.stream();
   }
   
